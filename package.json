@@ -1,0 +1,24 @@
+{
+  "name": "ea08",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "deploy": "gh-pages -d dist",
+    "build": "rollup --config --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://lieskpat.github.io/webgl_ea8",
+  "dependencies": {
+    "gh-pages": "^4.0.0",
+    "gl-matrix": "^3.4.3"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-run": "^3.0.0",
+    "rollup": "^3.2.3"
+  }
+}
